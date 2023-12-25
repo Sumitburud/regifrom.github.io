@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="DoctorLogin.css" />
+    <title>Doctor Login-Care Plus</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="header">
+        <div class="title">
+          <h3>Hospital Care <sup>+</sup>| Doctor Login</h3>
+        </div>
+      </div>
+      <fieldset>
+        <div class="pp">
+          <p class="pl">Please Enter Your Name and Password to Login</p>
+        </div>
+
+        <form action="callDoctor" method="post">
+          <div class="user">
+            <label for="name"
+              ><img src="user.svg" alt="" class="img img1"
+            /></label>
+            <input type="text" name="docname" id="name" />
+          </div>
+          <div class="pass">
+            <label for="password"
+              ><img src="lock.svg" alt="" class="img img2"
+            /></label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="pppp">
+            <input type="checkbox" onclick="myFunction()" class="showp" />
+            Show password
+          </div>
+          <div class="logbutton">
+            <button>
+              Login<img src="arrow-small-right.svg" alt="" class="buttonimg" />
+            </button>
+          </div>
+        </form>
+        <div class="ft">
+          <div class="footer">
+            <div class="f1">&#xa9;Hospital Care <sup>+</sup></div>
+            <div class="f2">&nbsp;| &nbsp; All Rights Reserved &nbsp;|</div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #c7eccf;
+}
+
+div.header {
+  padding-bottom: 10px;
+}
+h3 {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+div.flex1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+}
+div.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+}
+div.flex3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+}
+div.flex4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+}
+div.Name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+input#name {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+#name:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+label {
+  font-size: 18px;
+}
+
+div.password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+input#passwordd {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+#passwordd:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.contact {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+input#numberr {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+#numberr:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.email {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+input#emaill {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+#emaill:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.PatientAddress {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 33.33%;
+}
+
+input#addresss {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 90%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+
+#addresss:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.locality {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+
+input#areaa {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+
+#areaa:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.adhar {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+  margin-left: 60px;
+}
+
+input#adharr {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+
+#adharr:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.state {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+input#statee {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+
+#statee:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.Country {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+input#countryy {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 100%;
+  border: 2px solid #74b982;
+  border-radius: 5px;
+}
+#countryy:hover {
+  box-shadow: 0 0 30px#74b982;
+}
+
+div.butt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+input.submit {
+  height: 45px;
+  width: 160px;
+  font-size: 18px;
+  background-color: #9be5aa;
+  border-radius: 10px;
+  border: 2px solid #74b982;
+}
+.submit:hover {
+  box-shadow: 0 0 20px#74b982;
+}

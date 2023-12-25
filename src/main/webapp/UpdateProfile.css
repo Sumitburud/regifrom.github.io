@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.a1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(123, 121, 121);
+  width: 100vmin;
+}
+
+.s1 {
+  font-weight: bold;
+  font-size: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+

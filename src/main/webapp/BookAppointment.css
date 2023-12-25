@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+div.flex1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input#specialization {
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+div.flex2 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input#doctors {
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+div.flex3 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input#date {
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+div.flex4 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input#time {
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+div.formsec {
+  padding: 60px;
+}
+
+form {
+  border: 1px solid rgb(184, 184, 184);
+  width: 70%;
+  padding: 20px;
+}
+
+div.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+input.button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #9be5aa;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input.button:hover {
+  box-shadow: 0 0 10px #000000;
+}
+
+p {
+  padding: 10px;
+  font-size: 22px;
+  width: 70%;
+}
+label.Format {
+  font-size: 15px;
+  opacity: 50%;
+}

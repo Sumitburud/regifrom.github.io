@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 150px;
+  font-family: "Poppins", sans-serif;
+  background-color: #c7eccf;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+div.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #c7eccf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  background-color: #7eb6dc;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000000;
+}
+div.Myprofile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #9be5aa;
+  background-color: #9be5aa;
+  border-radius: 10px;
+  width: 20%;
+  width: 80vmin;
+  padding: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+div.Myappointments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #9be5aa;
+  background-color: #9be5aa;
+  border-radius: 10px;
+  width: 20%;
+  width: 80vmin;
+  padding: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+div.BookAppoint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #9be5aa;
+  background-color: #9be5aa;
+  border-radius: 10px;
+  width: 85vmin;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 10px black;
+}
+button.button1 {
+  background-color: #9be5aa;
+  color: rgb(110, 35, 181);
+  font-size: 17px;
+  border: 0;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+button.button2 {
+  background-color: #9be5aa;
+  color: rgb(110, 35, 181);
+  font-size: 17px;
+  border: 0;
+}
+
+button.button3 {
+  background-color: #9be5aa;
+  color: rgb(110, 35, 181);
+  font-size: 17px;
+  border: 0;
+}
+h1.dash{
+	font-weight: 400;
+	margin-top: -40px;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Poppins", sans-serif;
+}
+body {
+  padding-top: 10px;
+}
+
+div.header {
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 5px;
+  border: 2px solid #9be5aa;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #9be5aa;
+}
+
+div.title {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  width: 98%;
+  font-size: 25px;
+}
+
+div.img {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+img.inimg {
+  width: 100%;
+}
+p.p1 {
+  height: 100%;
+  width: 100%;
+}
+div.logins {
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: center;
+  justify-content: space-around;
+  border: 2px solid#9be5aa;
+  background-color: #9be5aa;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #99c6e4;
+  background-color: #99c6e4;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+}
+
+a:hover {
+  box-shadow: 0 0 10px #5da4d4;
+}
+
+.img2 {
+  width: 30px;
+  height: 30px;
+}
+
+img.img3 {
+  height: 35px;
+}
+
+div.admin {
+  width: 225px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.doctor {
+  width: 225px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.patient {
+  width: 225px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.para {
+  font-size: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: justify;
+  border: 2px solid black;
+  padding: 20px;
+  word-spacing: 2px;
+}
+div.paragraph {
+  padding-top: 20px;
+}
+
+div.footer {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 80px;
+  background-color: #9be5aa;
+}
+div.ft {
+  padding-top: 20px;
+}
+
+div.cap {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  word-spacing: 2px;
+}

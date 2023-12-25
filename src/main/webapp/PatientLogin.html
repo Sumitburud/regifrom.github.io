@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="PatientLogin.css" />
+    <title>Login - Care Plus</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="header">
+        <div class="title">
+          <h3>Hospital Care <sup>+</sup>| Patient Login</h3>
+        </div>
+      </div>
+      <fieldset>
+        <div class="pp">
+          <p class="pl">Please Enter Your Adhar and Password to Login</p>
+        </div>
+
+        <form action="PatientLogin" method="post">
+          <div class="user">
+            <label for="name"><img src="credit-card.svg" alt="" class="img img1" /></label>
+            <input type="number" name="patientadhar" id="name" placeholder="Adhar Number"/>
+          </div>
+          <div class="pass">
+            <label for=""><img src="lock.svg" alt="" class="img img2" /></label>
+            <input type="password" name="patientpassword" id="password" />
+          </div>
+          <div class="pppp">
+            <input type="checkbox" onclick="myFunction()" class="showp" />
+            Show password
+          </div>
+          <div class="logbutton">
+            <button>
+              Login<img src="arrow-small-right.svg" alt="" class="buttonimg" />
+            </button>
+          </div>
+          <div class="ca">
+            <p>Dont have an Account?</p>
+            <a href="NewAccount.html">Create New Account</a>
+          </div>
+        </form>
+        <div class="ft">
+          <div class="footer">
+            <div class="f1">&#xa9;Hospital Care <sup>+</sup></div>
+            <div class="f2">&nbsp;| &nbsp; All Rights Reserved &nbsp;|</div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>

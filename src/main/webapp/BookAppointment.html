@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BookAppointment.css" />
+    <title>Book Appointment - Care Plus</title>
+  </head>
+  <body>
+    <div class="bookApptmt">
+      <div class="formsec">
+        <p>Book Appointment</p>
+        <form action="CallAppointment" method="post">
+          <div class="flex1">
+            <label for="specialization">Treatement</label>
+            <input
+              list="Specializations"
+              name="Treatement"
+              id="specialization"
+              placeholder="Select Treatment"
+            />
+            <datalist id="Specializations">
+              <option value="Brain Surgery">Brain Surgery</option>
+              <option value="Heart Surgery">Heart Surgery</option>
+              <option value="Plastic Surgery">Plastic Surgery</option>
+              <option value="Cancer Treatment">Cancer Treatment</option>
+              <option value="Basic Treatment">Basic Treatment</option>
+            </datalist>
+          </div>
+
+          <div class="flex2">
+            <label for="doctors">Doctors</label>
+            <input
+              list="docs"
+              name="doctors"
+              id="doctors"
+              placeholder="Select Doctor"
+            />
+            <datalist id="docs">
+              <option value="Doctor 1- Manjunath Desai">Brain Surgery</option>
+              <option value="Doctor 2 - Sumit Burud">Heart Surgery</option>
+              <option value="Doctor 3 - Sanket Gomadi"> Plastic Surgery</option>
+              <option value="Doctor 4 - Gajanan Hegde">Cancer Treatment</option>
+              <option value="Doctor 5 - Sandeep Ihole ">Basic Treatment</option>
+            </datalist>
+          </div>
+          <div class="flex3">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" />
+          </div>
+
+          <div class="flex4">
+            <label for="time">Time</label>
+            <input list="times" name="time" id="time" min="12:00" max="12:00" />
+            <label for="" class="Format">Time Format HH:MM AM/PM</label>
+
+            <datalist id="times">
+              <option value="10:00 AM">10:00 AM</option>
+              <option value="12:00 PM">12:00 PM</option>
+              <option value="2:00 PM">2:00 PM</option>
+              <option value="4:00 PM">4:00 PM</option>
+              <option value="6:00 PM">6:00 PM</option>
+            </datalist>
+          </div>
+
+          <div class="but">
+            <input type="Submit" class="button" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
