@@ -18,6 +18,7 @@
               name="Treatement"
               id="specialization"
               placeholder="Select Treatment"
+              required
             />
             <datalist id="Specializations">
               <option value="Brain Surgery">Brain Surgery</option>
@@ -35,6 +36,7 @@
               name="doctors"
               id="doctors"
               placeholder="Select Doctor"
+              required
             />
             <datalist id="docs">
               <option value="Doctor 1- Manjunath Desai">Brain Surgery</option>
@@ -50,8 +52,8 @@
           </div>
 
           <div class="flex4">
-            <label for="time">Time</label>
-            <input list="times" name="time" id="time" min="12:00" max="12:00" />
+            <label for="time">Appointment Time</label>
+            <input list="times" name="Atptime" id="time" min="12:00" max="12:00" required />
             <label for="" class="Format">Time Format HH:MM AM/PM</label>
 
             <datalist id="times">

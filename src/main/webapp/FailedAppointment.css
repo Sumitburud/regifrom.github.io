@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: #c7eccf;
+  font-family: "Poppins", sans-serif;
+}
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+h2 {
+  color: rgb(255, 0, 0);
+  font-size: large;
+}
+
+.black {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

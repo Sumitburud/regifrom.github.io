@@ -96,7 +96,7 @@ public class PatientLoginAccess extends HttpServlet {
 		        		   		+ "        font-weight: 500\r\n"
 		        		   		+ "      \"\r\n"
 		        		   		+ "    >\r\n"
-		        		   		+ "      *Please Check with Your Entered Adhar Number/Password and Try Again!"
+		        		   		+ "      *Please Check if Your Entered Adhar Number or Password is incorrect. and Try Again!"
 		        		   		+ ""+"...</p>");
 	        		
 	        		 

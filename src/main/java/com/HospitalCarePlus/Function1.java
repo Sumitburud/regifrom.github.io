@@ -83,7 +83,7 @@ public class Function1 extends HttpServlet {
 			)&& (Password.equals((String) List2.get(0))|| Password.equals((String) List2.get(1)))	) {
 			
 			
-			RequestDispatcher rd = req.getRequestDispatcher("AdminDashb.html");
+			RequestDispatcher rd = req.getRequestDispatcher("AdminDashb.jsp");
         	rd.include(req, resp);
 		}
 		
@@ -91,7 +91,7 @@ public class Function1 extends HttpServlet {
 			
 			out.print("<p style='color:red;  margin-top:-80px; margin-left: 30%;  position: absolute;'>"
 					
-					+ "*You May Have Entered The Wrong Name Or Password! Please Try Again...</p> ");
+					+ "*Please Check if Your Entered Password/Username is incorrect. and Try Again!..</p> ");
 			
 			RequestDispatcher rd1 = req.getRequestDispatcher("adminLogin.html");
         	rd1.include(req, resp);
@@ -100,7 +100,7 @@ public class Function1 extends HttpServlet {
 			
                 out.print("<p style='color:red;  margin-top:-80px; margin-left: 30%;  position: absolute;'>"
 					
-					+ "*You May Have Entered The Wrong Name Or Password! Please Try Again...</p> ");
+					+ "*Please Check if Your Entered Password/Username is incorrect. and Try Again!..</p> ");
 			
 			RequestDispatcher rd2 = req.getRequestDispatcher("adminLogin.html");
         	rd2.include(req, resp);

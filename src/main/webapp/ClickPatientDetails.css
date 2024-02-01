@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #c7eccf;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+table {
+  width: auto;
+  overflow: hidden;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  flex-wrap: wrap;
+}

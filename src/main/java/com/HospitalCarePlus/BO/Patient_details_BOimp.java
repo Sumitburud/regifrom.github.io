@@ -31,6 +31,9 @@ public class Patient_details_BOimp implements Patient_details_BO {
 			+ "where `Adhar_Number`=?";
 	private static final String SELECT_QUERY ="SELECT * from `patient_details` where `Adhar_Number`=?";
 	private static final String SELECT_ALL_QUERY ="SELECT * from `patient_details` ";
+	private static final String COUNT_QUERY = "SELECT COUNT(*) AS row_count FROM `Patient_details`";
+	
+	
 	
 	
 	
@@ -162,7 +165,7 @@ public class Patient_details_BOimp implements Patient_details_BO {
 	}
 
 	@Override
-	public List<Patient_details> getAll() {
+	public ArrayList<Patient_details> getAll() {
 		
        ArrayList<Patient_details> patients = new ArrayList<Patient_details>();
 		
@@ -203,5 +206,27 @@ public class Patient_details_BOimp implements Patient_details_BO {
 		return patients;
 		
 	}
+	
+	public int count() {
+		int rowCount = 0;
+		
+		 try {
+			createStatement = connection.createStatement();
+			
+			res = createStatement.executeQuery(COUNT_QUERY);
+			
+			if(res.next()) {
+				   rowCount = res.getInt("row_count");
+			}
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rowCount ;
+	}
+	
+	
 
 }
